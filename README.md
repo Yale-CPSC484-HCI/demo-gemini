@@ -21,6 +21,11 @@ In the same directory run the following
 ```
 http-server -c-1
 ```
+or use python to run like the following
+
+```
+python3 -m http.server -b 127.0.0.1 8080
+```
 
 ## Modifications
 By supressing the /sp2tx socket this can be turned into a static trivia game.
