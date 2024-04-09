@@ -26,7 +26,7 @@ var sp2tx = {
 };
 
 
-const gemini_api_key = 'AIzaSyBU9n8pg0yb7Y6fDRlD9_XXMISmZXulk0M';
+const gemini_api_key = 'your api key here';
 const genAI = new GoogleGenerativeAI(gemini_api_key);
 const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 
